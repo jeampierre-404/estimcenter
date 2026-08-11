@@ -16,7 +16,7 @@ import pe.idat.repository.DetalleCotizacionRepository;
 
 @RestController
 @RequestMapping("/dashboard")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class DashboardRestController {
 
     @Autowired private CotizacionRepository cotizacionRepo;

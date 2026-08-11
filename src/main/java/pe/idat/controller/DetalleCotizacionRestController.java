@@ -10,7 +10,7 @@ import pe.idat.service.DetalleCotizacionService;
 
 @RestController
 @RequestMapping("/detallecotizacion")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class DetalleCotizacionRestController {
 	
 	@Autowired

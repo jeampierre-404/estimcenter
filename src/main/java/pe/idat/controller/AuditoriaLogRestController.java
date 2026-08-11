@@ -10,7 +10,7 @@ import pe.idat.service.AuditoriaLogService;
 
 @RestController
 @RequestMapping("/auditoria")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class AuditoriaLogRestController {
 	
 	@Autowired

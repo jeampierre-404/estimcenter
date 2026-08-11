@@ -11,7 +11,7 @@ import pe.idat.service.ClienteService;
 
 @RestController
 @RequestMapping("/cliente")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class ClienteRestController {
 	
 	@Autowired

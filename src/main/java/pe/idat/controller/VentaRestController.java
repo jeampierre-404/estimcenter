@@ -10,7 +10,7 @@ import pe.idat.service.VentaService;
 
 @RestController
 @RequestMapping("/venta")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class VentaRestController {
 	
 	@Autowired

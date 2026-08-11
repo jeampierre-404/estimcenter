@@ -15,7 +15,7 @@ import pe.idat.service.DespachoService;
 
 @RestController
 @RequestMapping("/despacho")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class DespachoRestController {
 	
 	@Autowired

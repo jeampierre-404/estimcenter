@@ -10,7 +10,7 @@ import pe.idat.service.MetodoPagoService;
 
 @RestController
 @RequestMapping("/metodopago")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class MetodoPagoRestController {
 	
 	@Autowired

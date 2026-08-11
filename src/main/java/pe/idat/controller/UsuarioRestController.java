@@ -12,7 +12,7 @@ import pe.idat.service.UsuarioService;
 
 @RestController
 @RequestMapping("/usuario")
-@CrossOrigin(origins = "http://localhost:4200") // 🔥 EVITA EL ERROR DE CORS EN ANGULAR
+@CrossOrigin(origins = "*") // 🔥 EVITA EL ERROR DE CORS EN ANGULAR
 public class UsuarioRestController {
 	
 	@Autowired

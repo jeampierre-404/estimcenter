@@ -10,7 +10,7 @@ import pe.idat.service.CategoriaService;
 
 @RestController
 @RequestMapping("/categoria")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class CategoriaRestController {
 
 	@Autowired

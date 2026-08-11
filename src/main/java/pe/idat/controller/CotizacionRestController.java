@@ -27,7 +27,7 @@ import pe.idat.service.MovimientoInventarioService;
 
 @RestController
 @RequestMapping("/cotizacion")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class CotizacionRestController {
 
     @Autowired private pe.idat.repository.DetalleCotizacionRepository detalleRepo; 

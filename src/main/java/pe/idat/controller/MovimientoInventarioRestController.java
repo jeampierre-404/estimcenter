@@ -10,7 +10,7 @@ import pe.idat.service.MovimientoInventarioService;
 
 @RestController
 @RequestMapping("/movimiento")
-@CrossOrigin(origins = "http://localhost:4200") // 🔥 Vital para conectar con Angular
+@CrossOrigin(origins = "*") // 🔥 Vital para conectar con Angular
 public class MovimientoInventarioRestController {
 	
 	@Autowired

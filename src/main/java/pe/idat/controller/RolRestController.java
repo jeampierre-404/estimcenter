@@ -10,7 +10,7 @@ import pe.idat.service.RolService;
 
 @RestController
 @RequestMapping("/rol")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class RolRestController {
 	
 	@Autowired
